@@ -1,0 +1,18 @@
+Supplier 1 data:
+----------------
+SupplierID: X509404
+Name: J.Doe, Inc.
+Contract: C2105
+Payment-limit: USD200000
+Bank: Fargo Wild West
+Account Number: 239109220
+
+Supplier 2 data:
+----------------
+SupplierID: X455606
+Name: Wright Brothers, Inc.
+Contract: B747
+Payment-limit: USD300000
+Bank: Union Bank
+Account Number: 49088214
+

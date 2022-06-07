@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+echo -n '' > bcstatus
+echo -n '1' > simstate
+rm e1 e2 e3 log_m0 blockchain*
+./bcsim.py newbc
+./sync.py --put
+touch e1 e2 e3

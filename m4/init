@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cp hosts.good /etc/hosts
+echo -n '1' > simstate
+rm e4 e5 log blockchain*
+touch e4 e5

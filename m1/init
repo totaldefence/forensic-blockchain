@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+cp reactorspec.odt.good documents/reactorspec.odt
+cp supplierdata.good documents/supplierdata
+cp awsiplist.good /etc/cron.monthly/awsiplist
+cp samplefiles/certlog files/
+cp samplefiles/ntfslog files/
+cp samplefiles/secret files/
+echo -n '' > bcstatus
+echo -n '1' > simstate
+rm /usr/share/ca-certificates/mozilla/trustme-certificate-authority.crt
+rm e1 e2 log files/.temp blockchain*
+touch e1 e2

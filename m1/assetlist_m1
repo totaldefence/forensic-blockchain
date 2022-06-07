@@ -1,0 +1,7 @@
+AssetID,AssetType,AssetPath
+1000,Directory,/usr/share/ca-certificates/mozilla/
+1001,FileHashOnly,documents/reactorspec.odt
+1002,FileWhole,/etc/cron.monthly/awsiplist
+1003,FileWhole,documents/supplierdata
+1004,FileWholeRemote,aws_hosts.temp
+1005,Directory,files/

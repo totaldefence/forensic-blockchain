@@ -1,0 +1,8 @@
+AssetID,AssetType,AssetPath
+2000,Directory,/usr/bin/
+2001,FileHashOnly,/home/bcadmin/.ssh/authorized_keys
+2002,FileWhole,/etc/apt/sources.list
+2003,Directory,/etc/apt/trusted.gpg.d/
+2004,FileWhole,syslogs/userlog
+2005,FileWhole,syslogs/commslog
+2006,FileWhole,syslogs/invoicelog

@@ -1,0 +1,5 @@
+CmdID,CmdType,Command
+20000,CmdNmap,
+20001,CmdGeneric,route -n
+20002,CmdGeneric,dd if=/dev/sda count=2 | sha224sum | awk '{print $1}'
+20003,CmdUfwBlock,

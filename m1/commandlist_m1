@@ -1,0 +1,4 @@
+CmdID,CmdType,Command
+10000,CmdLast,
+10001,CmdGeneric,echo "$PATH"
+10002,CmdNetstat,
