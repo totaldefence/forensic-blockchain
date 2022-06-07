@@ -1,0 +1,77 @@
+The files in this archive implement a simple blockchain simulation.
+
+For background read:
+
+Master Thesis in Network Forensics
+Enhancing Supply Chain Cybersecurity with Blockchain
+by
+Ari Hämäläinen
+Rekha Nadesan
+20 May 2022
+Halmstad University
+
+
+Files included in this archive:
+-------------------------------
+
+bcsim.py
+    This is the simulation programme;
+    It must be copied to all agent machines
+
+sync.py
+    This program performs blockchain synchronization
+
+perturb.py
+    This program performs perturbations on the monitored assets
+
+schedule
+    This file defines the schedule of simulation actions
+
+m0/
+    This subfolder contains the simulation files on machine m0.
+    It defines the startup state of the simulation on m0.
+
+m1/
+    This subfolder contains the simulation files on machine m1.
+    It defines the startup state of the simulation on m1.
+
+m2/
+    This subfolder contains the simulation files on machine m2.
+    It defines the startup state of the simulation on m2.
+
+m4/
+    This subfolder contains the simulation files on machine m4.
+    It defines the startup state of the simulation on m4.
+
+
+Simulator instructions:
+-----------------------
+
+This section describes how the simulation was run in the project environment.
+Adapt to suit your own implementation or network setup.
+
+Create connected virtual machines.
+Administrator must have real-time access to each machine.
+
+At minute 1, start the simulation by executing the following commands in order on the specified machine,
+
+on machine m4: sudo ./init 
+on machine m2: sudo ./init 
+on machine m1: sudo ./init 
+on machine m0: ./init 
+
+on machine m1: sudo cp crontab.start /etc/crontab
+on machine m2: sudo cp crontab.start /etc/crontab
+on machine m4: sudo cp crontab.start /etc/crontab
+on machine m0: sudo cp crontab.start /etc/crontab
+
+Terminate the simulation at any time by executing all the following,
+
+on machine m1: sudo cp crontab.stop /etc/crontab
+on machine m2: sudo cp crontab.stop /etc/crontab
+on machine m4: sudo cp crontab.stop /etc/crontab
+on machine m0: sudo cp crontab.stop /etc/crontab
+
+The final blockchain will be on machine, m0, in a file
+blockchain_pickle.
+
