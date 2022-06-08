@@ -1,6 +1,6 @@
 # forensic-blockchain
 
-The files in this repository were used to implement a simple blockchain simulation for a Master's thesis project.
+The files in this repository were used to implement a simple blockchain simulation for a thesis project.
 
 For background read this Master Thesis in Digital Forensics:
 
@@ -16,3 +16,4 @@ Rekha Nadesan
 
 Halmstad University
 
+Master's Programme in Network Forensics
