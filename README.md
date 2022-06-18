@@ -9,6 +9,6 @@ https://urn.kb.se/resolve?urn=urn:nbn:se:hh:diva-47158
 
 by Ari Hämäläinen, Rekha Nadesan
 
-Halmstad University, 2022
+2022, Halmstad University
 
 Master's Programme in Network Forensics
