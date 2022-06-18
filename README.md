@@ -9,9 +9,7 @@ https://urn.kb.se/resolve?urn=urn:nbn:se:hh:diva-47158
 
 by
 
-Ari Hämäläinen
-
-Rekha Nadesan
+Ari Hämäläinen, Rekha Nadesan
 
 20 May 2022
 
