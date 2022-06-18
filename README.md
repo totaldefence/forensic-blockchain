@@ -7,9 +7,7 @@ https://urn.kb.se/resolve?urn=urn:nbn:se:hh:diva-47158
 
 ### Enhancing Supply Chain Cybersecurity with Blockchain
 
-by
-
-Ari Hämäläinen, Rekha Nadesan
+by Ari Hämäläinen, Rekha Nadesan
 
 20 May 2022
 
